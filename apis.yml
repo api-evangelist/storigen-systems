@@ -1,8 +1,28 @@
 aid: storigen-systems
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/storigen-systems.png
 name: Storigen Systems
-description: Storigen Systems is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Storigen Systems was an Internet infrastructure company founded in 2000 and based in
+  Lowell, Massachusetts, that pioneered the Distributed Storage Network — a class of
+  infrastructure intended to improve the economics and performance of bandwidth-intensive
+  applications by enabling efficient storage, delivery, and management of data across
+  distributed environments. The company raised roughly $49M from investors including
+  Battery Ventures, Charles River Ventures (CRV), Flagship Pioneering, and Pilot House
+  Ventures before ceasing operations; it is now permanently closed. It was surfaced as a
+  portfolio company of Battery Ventures and added to the API Evangelist network as a stub.
+  Enrichment found no live domain, developer portal, documentation, or API surface — the
+  company is defunct and publishes nothing to harvest.
 url: https://raw.githubusercontent.com/api-evangelist/storigen-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +30,25 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Distributed Storage
+- Content Delivery
+- Internet Infrastructure
+- Storage Networking
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
